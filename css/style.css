@@ -25,7 +25,153 @@ ul{
 }
 
 /* header start */
-    
+.nav{
+    padding: 34px 40px;
+    background: #fff;
+    box-shadow: 0px 0px 2px black;
+}
+.nav__container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__lists
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 44px;
+}
+.nav__links
+{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto" sans-serif;
+    color: #241C15;
+    transition: .3s;
+}
+.nav__links:hover
+{
+    color: #692340;
+}
+.nav__btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    transition: .3s;
+}
+
+.btn__nav
+{
+    width: 100px;
+    height: 43px;
+    border: 1px solid black;
+    padding: 12px 29px;
+    color: #000;
+    background: #C4C4C4 0%;
+    font-size: 14px;
+    font-weight: 700;
+    align-items: center;
+    box-shadow: #241C15;
+    transition: .3s;
+    border-radius: 5px;
+}
+.btn__nav:hover
+{
+    transform: scale(1.2);
+}
+.btn__nav2
+{
+    border: none;
+    width: 118px;
+    height: 43px;
+    border: 1px solid black;
+    padding: 12px 15px;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: whitesmoke;
+    background-color: #007C89;
+    transition: .3s;
+    border-radius: 5px;
+}
+.btn__nav2:hover
+{
+    transform: scale(1.2);
+}
+.header__banner
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+    object-position: top;
+}
+.header__list
+{
+    display: flex;
+    column-gap: 28px;
+    justify-content: flex-end;
+    align-items: center;
+     margin-top: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #241C15;
+    transition: .3s;
+}
+.header__list:hover
+{
+    color: #692340;
+}
+.header__title
+{
+    font-size: 74px;
+    font-weight: 500;
+    color: #692340;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+   
+}
+.header__parag
+{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 638px;
+    width: 100%;
+    color: #692340;
+    margin-bottom: 40px;
+}
+.header__btn
+{
+    width: 219px;
+    height: 60px;
+    background: #692340;
+    padding: 20px 20px;
+    color: #FBEECA;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    transition: .3s;
+}
+.header__btn:hover
+{
+    background: #007C89;
+}
+.header__small-title
+{
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #692340;
+    line-height: 21px;
+}
 
 /* header end */
 
